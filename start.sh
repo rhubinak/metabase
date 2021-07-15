@@ -8,11 +8,11 @@ export MB_JETTY_PORT=${PORT}
 
 # Database Conection Info
 export MB_DB_TYPE=postgres
-export MB_DB_DBNAME=$(bin/discovery PLATFORM_RELATIONSHIPS metabasedb.metabasedb.path)
-export MB_DB_PORT=$(bin/discovery PLATFORM_RELATIONSHIPS metabasedb.metabasedb.port)
-export MB_DB_USER=$(bin/discovery PLATFORM_RELATIONSHIPS metabasedb.metabasedb.username)
-export MB_DB_PASS=$(bin/discovery PLATFORM_RELATIONSHIPS metabasedb.metabasedb.password)
-export MB_DB_HOST=$(bin/discovery PLATFORM_RELATIONSHIPS metabasedb.metabasedb.host)
+export MB_DB_DBNAME=$(bin/discovery PLATFORM_RELATIONSHIPS database.db.path)
+export MB_DB_PORT=$(bin/discovery PLATFORM_RELATIONSHIPS database.db.port)
+export MB_DB_USER=$(bin/discovery PLATFORM_RELATIONSHIPS database.db.username)
+export MB_DB_PASS=$(bin/discovery PLATFORM_RELATIONSHIPS database.db.password)
+export MB_DB_HOST=$(bin/discovery PLATFORM_RELATIONSHIPS database.db.host)
 
 # Email
 export MB_EMAIL_SMTP_HOST=$PLATFORM_SMTP_HOST

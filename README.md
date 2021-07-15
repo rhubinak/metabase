@@ -12,6 +12,10 @@ Metabase is a simple and powerful analytics tool which lets anyone learn and mak
 * Automatic TLS certificates
 * Automatic Java heap size configuration
 
+## Customizations
+
+Please make sure that the instance has enough memory available for running Metabase. Visit [this page](https://www.metabase.com/docs/latest/troubleshooting-guide/running.html) for memory requirements overview.
+
 ## References
 
 * [Metabase.com](https://www.metabase.com/)
